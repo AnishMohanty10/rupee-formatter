@@ -1,0 +1,36 @@
+{
+  "name": "format-inr",
+  "version": "1.0.0",
+  "description": "Zero-dependency formatter for numbers using the Indian numbering system (lakh/crore grouping).",
+  "main": "./index.js",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.mjs",
+    "index.d.ts",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "inr",
+    "indian",
+    "rupee",
+    "lakh",
+    "crore",
+    "currency",
+    "format",
+    "number"
+  ],
+  "author": "",
+  "license": "MIT"
+}
